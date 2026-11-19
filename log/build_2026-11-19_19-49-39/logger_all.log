@@ -1,0 +1,384 @@
+[0.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.124s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7538b0e39420>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7538b0f32b60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7538b0f32b60>>)
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_interfaces' with type 'ros.ament_cmake' and name 'autopartol_interfaces'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_robot' with type 'ros.ament_python' and name 'autopartol_robot'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_application' with type 'ros.ament_python' and name 'fishbot_application'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_cmake' and name 'fishbot_description'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.366s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install
+[0.367s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 372 installed packages in /opt/ros/humble
+[0.369s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.415s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces', 'merge_install': False, 'path': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot', 'merge_install': False, 'path': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_robot', 'symlink_install': False, 'test_result_base': None}
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application', 'merge_install': False, 'path': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_application', 'symlink_install': False, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description', 'merge_install': False, 'path': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.418s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.419s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.419s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_interfaces' with build type 'ament_cmake'
+[0.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_interfaces'
+[0.423s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_robot' with build type 'ament_python'
+[0.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'ament_prefix_path')
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.sh'
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_application' with build type 'ament_python'
+[0.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application', 'ament_prefix_path')
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.sh'
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.441s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_description' with build type 'ament_cmake'
+[0.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_description'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_navigation2' with build type 'ament_cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_navigation2'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces -- -j22 -l22
+[0.773s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_robot'
+[0.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.774s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.069s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_application'
+[1.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description -- -j22 -l22
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2 -- -j22 -l22
+[1.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces -- -j22 -l22
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description -- -j22 -l22
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description
+[1.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2 -- -j22 -l22
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2
+[1.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[1.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_description
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description' for CMake module files
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description' for CMake config files
+[1.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/bin'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/lib/python3.10/site-packages'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/bin'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[1.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[1.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description' for CMake module files
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description' for CMake config files
+[1.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[1.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/bin'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/lib/python3.10/site-packages'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/bin'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[1.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[1.186s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2' for CMake module files
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_navigation2
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2' for CMake config files
+[1.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/bin'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/bin'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[1.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[1.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2' for CMake module files
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2' for CMake config files
+[1.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/bin'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/bin'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[1.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[1.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_interfaces)
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces' for CMake module files
+[1.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_interfaces
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces' for CMake config files
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interfaces', 'cmake_prefix_path')
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/lib'
+[1.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interfaces', 'ld_library_path_lib')
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.sh'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/bin'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/lib/pkgconfig/autopartol_interfaces.pc'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/lib/python3.10/site-packages'
+[1.210s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/bin'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.dsv'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.sh'
+[1.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.bash'
+[1.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.zsh'
+[1.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/colcon-core/packages/autopartol_interfaces)
+[1.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_interfaces)
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces' for CMake module files
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces' for CMake config files
+[1.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interfaces', 'cmake_prefix_path')
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/lib'
+[1.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interfaces', 'ld_library_path_lib')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/bin'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/lib/pkgconfig/autopartol_interfaces.pc'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/lib/python3.10/site-packages'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/bin'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.dsv'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.bash'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.zsh'
+[1.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_interfaces/share/colcon-core/packages/autopartol_interfaces)
+[1.514s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, egg_info, alias, upload_docs, install_data, check, develop, build_py, setopt, dist_info, compile_catalog, clean, bdist_rpm, extract_messages, bdist_wheel, bdist_dumb, build_ext, build_scripts, symlink_data, upload, update_catalog, build, easy_install, install_egg_info, install_lib, bdist, register, saveopts, install_headers, init_catalog, rotate, build_clib, install_scripts, bdist_egg, sdist, test
+[1.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_application': PYTHONPATH=/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_application/build install --record /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_application/install.log --install-scripts $base/lib/fishbot_application --single-version-externally-managed install_data
+[1.519s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, egg_info, alias, upload_docs, install_data, check, develop, build_py, setopt, dist_info, compile_catalog, clean, bdist_rpm, extract_messages, bdist_wheel, bdist_dumb, build_ext, build_scripts, symlink_data, upload, update_catalog, build, easy_install, install_egg_info, install_lib, bdist, register, saveopts, install_headers, init_catalog, rotate, build_clib, install_scripts, bdist_egg, sdist, test
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_robot': PYTHONPATH=/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_robot/build install --record /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_robot/install.log --install-scripts $base/lib/autopartol_robot --single-version-externally-managed install_data
+[1.841s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot' for CMake module files
+[1.842s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot' for CMake config files
+[1.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_robot/build install --record /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/autopartol_robot/install.log --install-scripts $base/lib/autopartol_robot --single-version-externally-managed install_data
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/lib'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/bin'
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/lib/pkgconfig/autopartol_robot.pc'
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/lib/python3.10/site-packages'
+[1.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'pythonpath')
+[1.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.ps1'
+[1.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.dsv'
+[1.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.sh'
+[1.846s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/bin'
+[1.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_robot)
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/package.ps1'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/package.dsv'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/package.sh'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/package.bash'
+[1.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/autopartol_robot/package.zsh'
+[1.849s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/autopartol_robot/share/colcon-core/packages/autopartol_robot)
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application' for CMake module files
+[1.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/fishbot_application' returned '0': PYTHONPATH=/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_application/build install --record /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/build/fishbot_application/install.log --install-scripts $base/lib/fishbot_application --single-version-externally-managed install_data
+[1.858s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application' for CMake config files
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/lib'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/bin'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/lib/pkgconfig/fishbot_application.pc'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/lib/python3.10/site-packages'
+[1.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application', 'pythonpath')
+[1.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.ps1'
+[1.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.sh'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/bin'
+[1.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_application)
+[1.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/package.dsv'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/package.sh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/package.bash'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/fishbot_application/package.zsh'
+[1.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/fishbot_application/share/colcon-core/packages/fishbot_application)
+[1.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.867s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.877s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.877s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.877s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.894s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/local_setup.ps1'
+[1.896s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/_local_setup_util_ps1.py'
+[1.898s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/setup.ps1'
+[1.900s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/local_setup.sh'
+[1.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/_local_setup_util_sh.py'
+[1.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/setup.sh'
+[1.903s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/local_setup.bash'
+[1.903s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/setup.bash'
+[1.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/local_setup.zsh'
+[1.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/install/setup.zsh'

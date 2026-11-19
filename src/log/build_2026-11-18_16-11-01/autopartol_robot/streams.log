@@ -1,0 +1,38 @@
+[0.596s] Invoking command in '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/autopartol_robot': PYTHONPATH=/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopartol_robot build --build-base /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/build install --record /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/install.log --install-scripts $base/lib/autopartol_robot --single-version-externally-managed install_data
+[0.775s] running egg_info
+[0.776s] creating ../build/autopartol_robot/autopartol_robot.egg-info
+[0.776s] writing ../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO
+[0.776s] writing dependency_links to ../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt
+[0.776s] writing entry points to ../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt
+[0.776s] writing requirements to ../build/autopartol_robot/autopartol_robot.egg-info/requires.txt
+[0.776s] writing top-level names to ../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt
+[0.776s] writing manifest file '../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[0.777s] reading manifest file '../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[0.778s] writing manifest file '../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[0.778s] running build
+[0.778s] running build_py
+[0.778s] creating /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/build
+[0.778s] creating /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/build/lib
+[0.778s] creating /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/build/lib/autopartol_robot
+[0.778s] copying autopartol_robot/__init__.py -> /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/build/lib/autopartol_robot
+[0.778s] copying autopartol_robot/partol_node.py -> /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/build/lib/autopartol_robot
+[0.778s] running install
+[0.778s] running install_lib
+[0.779s] creating /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[0.779s] copying /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/build/lib/autopartol_robot/__init__.py -> /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[0.779s] copying /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/build/lib/autopartol_robot/partol_node.py -> /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[0.779s] byte-compiling /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__init__.py to __init__.cpython-310.pyc
+[0.779s] byte-compiling /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/partol_node.py to partol_node.cpython-310.pyc
+[0.780s] running install_data
+[0.780s] creating /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/share/ament_index
+[0.780s] creating /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/share/ament_index/resource_index
+[0.780s] creating /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/share/ament_index/resource_index/packages
+[0.780s] copying resource/autopartol_robot -> /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/share/ament_index/resource_index/packages
+[0.780s] copying package.xml -> /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/share/autopartol_robot
+[0.780s] creating /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/share/autopartol_robot/config
+[0.780s] copying config/partol_config.yaml -> /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/share/autopartol_robot/config
+[0.780s] running install_egg_info
+[0.782s] Copying ../build/autopartol_robot/autopartol_robot.egg-info to /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info
+[0.782s] running install_scripts
+[0.797s] Installing partol_node script to /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/autopartol_robot/lib/autopartol_robot
+[0.797s] writing list of installed files to '/home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/build/autopartol_robot/install.log'

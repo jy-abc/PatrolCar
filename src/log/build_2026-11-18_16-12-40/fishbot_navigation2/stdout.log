@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/launch
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+-- Installing: /home/jy/vscode/ros2_learning/chapter7/chapter7_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
